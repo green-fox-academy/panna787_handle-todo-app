@@ -11,4 +11,8 @@ public class Task {
     public void complete(){
         completed = true;
     }
+
+    public void printTask(){
+        System.out.println(this.description);
+    }
 }

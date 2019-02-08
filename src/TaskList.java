@@ -9,4 +9,10 @@ public class TaskList {
 
 
     }
+
+    public void orintAllTask(){
+        for (int i = 0; i < listOfTasks.size(); i++) {
+            System.out.println((i + 1) + " - " + listOfTasks.get(i));
+        }
+    }
 }
